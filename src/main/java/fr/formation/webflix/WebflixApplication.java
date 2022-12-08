@@ -17,7 +17,7 @@ public class WebflixApplication {
 	@Autowired
 	private UserService userService;
 
-	public void main(String[] args) {
+	public main(String[] args) {
 		SpringApplication.run(WebflixApplication.class, args);
 	}
 
